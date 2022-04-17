@@ -1,5 +1,5 @@
 import streamlit
 
 streamlit.title('My Mom\'s New Healthy Diner')
-st.header('This is a header')
-st.text('An example text')
+streamlit.header('This is a header')
+streamlit.text('An example text')
