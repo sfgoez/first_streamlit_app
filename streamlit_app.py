@@ -18,7 +18,7 @@ my_fruit_list = my_fruit_list.set_index('Fruit')
 fruits_selected = streamlit.multiselect("Pick some fruits:", list(my_fruit_list.index),['Avocado','Strawberries'])
 
 # Show location
-pandas.df.loc[('Cherries')]
+pandas.dataframe.location[('Cherries')]
 
 # Show input box
 fruits_to_show = my_fruit_list.loc[fruits_selected]
